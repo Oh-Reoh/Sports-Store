@@ -335,3 +335,4 @@ C:\Users\Administrator\Downloads\SportsStore\SportsStore\SportsSln\SportsStore\o
 C:\Users\Administrator\Downloads\SportsStore\SportsStore\SportsSln\SportsStore\obj\Debug\net8.0\SportsStore.genruntimeconfig.cache
 C:\Users\Administrator\Downloads\SportsStore\SportsStore\SportsSln\SportsStore\obj\Debug\net8.0\ref\SportsStore.dll
 C:\Users\Administrator\Downloads\SportsStore\SportsStore\SportsSln\SportsStore\bin\Debug\net8.0\SportsStore.staticwebassets.runtime.json
+C:\Users\Administrator\Downloads\SportsStore\SportsStore\SportsSln\SportsStore\obj\Debug\net8.0\SportsStore.sourcelink.json

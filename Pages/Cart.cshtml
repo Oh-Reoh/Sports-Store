@@ -19,14 +19,15 @@
                 <td class="text-center">@line.Quantity</td>
                 <td class="text-left">@line.Product.Name</td>
                 <td class="text-right">@line.Product.Price.ToString("c")</td>
-                <td class="text-right">@((line.Quantity * line.Product.Price).ToString("c"))</td>
+                <td class="text-right">
+                    @((line.Quantity * line.Product.Price).ToString("c"))
+                </td>
                 <td class="text-center">
-                    <form method="post" asp-page-handler="Remove">
-                        @Html.AntiForgeryToken()
-                        <input type="hidden" name="productID" value="@line.Product.ProductID" />
-                        <input type="hidden" name="returnUrl" value="@Model.ReturnUrl" />
-                        <button type="submit" class="btn btn-danger btn-sm">Remove</button>
-                    </form>
+                    <!-- Adjusted to trigger the correct OnGetRemove handler -->
+                    <a class="btn btn-sm btn-danger"
+                       href="/Cart?handler=Remove&productId=@line.Product.ProductID&returnUrl=@Model.ReturnUrl">
+                        Remove
+                    </a>
                 </td>
             </tr>
         }
@@ -34,7 +35,9 @@
     <tfoot>
         <tr>
             <td colspan="3" class="text-right">Total:</td>
-            <td class="text-right">@Model.Cart?.ComputeTotalValue().ToString("c")</td>
+            <td class="text-right">
+                @Model.Cart?.ComputeTotalValue().ToString("c")
+            </td>
         </tr>
     </tfoot>
 </table>

@@ -24,9 +24,9 @@
 
         public virtual void RemoveLine(Product product)
         {
-            // Completely removes the product from the cart
             Lines.RemoveAll(l => l.Product.ProductID == product.ProductID);
         }
+
 
         public decimal ComputeTotalValue() =>
             Lines.Sum(e => e.Product.Price * e.Quantity);
