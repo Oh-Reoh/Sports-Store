@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "ehi7vfBCuxD4y5QrhWq5Ec6CgHX82K5SGdFsbDNYgVs=",
+  "Source": "SportsStore",
+  "BasePath": "_content/SportsStore",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SportsStore\\wwwroot",
+      "Source": "SportsStore",
+      "ContentRoot": "C:\\Users\\Administrator\\Downloads\\SportsStore\\SportsStore\\SportsSln\\SportsStore\\wwwroot\\",
+      "BasePath": "_content/SportsStore",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Administrator\\Downloads\\SportsStore\\SportsStore\\SportsSln\\SportsStore\\wwwroot\\css\\style.css",
+      "SourceId": "SportsStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrator\\Downloads\\SportsStore\\SportsStore\\SportsSln\\SportsStore\\wwwroot\\",
+      "BasePath": "_content/SportsStore",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p9oiwjxl5x",
+      "Integrity": "XeeQUUSl+sEzyrFiAdsrPLmddDYMoN2FS8L/5pXkH6M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\Administrator\\Downloads\\SportsStore\\SportsStore\\SportsSln\\SportsStore\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4295"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XeeQUUSl+sEzyrFiAdsrPLmddDYMoN2FS8L/5pXkH6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 15:53:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XeeQUUSl+sEzyrFiAdsrPLmddDYMoN2FS8L/5pXkH6M="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.p9oiwjxl5x.css",
+      "AssetFile": "C:\\Users\\Administrator\\Downloads\\SportsStore\\SportsStore\\SportsSln\\SportsStore\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4295"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XeeQUUSl+sEzyrFiAdsrPLmddDYMoN2FS8L/5pXkH6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 15:53:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p9oiwjxl5x"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XeeQUUSl+sEzyrFiAdsrPLmddDYMoN2FS8L/5pXkH6M="
+        }
+      ]
+    }
+  ]
+}

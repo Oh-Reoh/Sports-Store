@@ -1,0 +1,231 @@
+﻿/* Universal Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navbar styles */
+nav {
+    background-color: #004f92; /* Dark Blue for Decathlon-inspired theme */
+    padding: 10px 20px;
+}
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+        nav a:hover {
+            background-color: #005bb5; /* Darker blue on hover */
+            color: white;
+            border-radius: 5px;
+        }
+
+/* Categories hover effect */
+.category-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0074b8; /* Initial blue color for categories */
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+    .category-link:hover {
+        background-color: #003366; /* Dark blue on hover */
+        color: white;
+    }
+
+/* Product Card */
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+    .product-card img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .product-card h3 {
+        font-size: 24px;
+        color: #333;
+    }
+
+/* Checkout button */
+input[type="submit"] {
+    background-color: #f7b731; 
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%; 
+    transition: background-color 0.3s ease;
+}
+
+    input[type="submit"]:hover {
+        background-color: #ffb845; /* Lighter yellow on hover */
+    }
+
+/* Form input styling */
+
+input[type="text"], input[type="checkbox"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+    input[type="checkbox"]:checked {
+        background-color: #0074b8; /* Blue background when checked */
+    }
+
+div input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 10px;
+}
+label[for="GiftWrap"] {
+    font-size: 16px;
+    font-weight: normal;
+    color: #333;
+}
+
+/* Option Section */
+h3 {
+    font-size: 18px;
+    color: #004f92; /* Matching the theme */
+}
+
+/* Spacing adjustments for better alignment */
+form div {
+    margin-bottom: 15px;
+}
+
+
+
+label {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #004f92; /* Dark blue footer */
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+    footer a {
+        color: white;
+        text-decoration: none;
+    }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+/* Additional styling for the cart and checkout page */
+h2 {
+    font-size: 28px;
+    color: #004f92;
+    margin-bottom: 20px;
+}
+
+/* Checkout form section */
+.form-group {
+    margin-bottom: 15px;
+}
+
+    .form-group label {
+        font-size: 16px;
+        color: #333;
+    }
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+/* Button hover effects */
+button.btn:hover {
+    background-color: #005bb5;
+    color: white;
+    cursor: pointer;
+}
+
+/* Cart Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #004f92;
+    color: white;
+}
+
+tfoot {
+    background-color: #004f92;
+    color: white;
+}
+
+    tfoot td {
+        font-weight: bold;
+    }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    nav a {
+        padding: 5px 10px;
+    }
+
+    .product-card {
+        padding: 15px;
+    }
+
+    input[type="submit"], .category-link {
+        width: 100%;
+    }
+}
