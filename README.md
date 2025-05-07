@@ -1,43 +1,44 @@
-# Sports Store
+## Description
 
-A simple e-commerce web app for a sports store inspired by Decathlon. Built using ASP.NET Core, Entity Framework, and session persistence for the shopping cart.
+The **Sports Store** project is an online e-commerce store built using ASP.NET Core. It features a product catalog, shopping cart functionality, user authentication, and order processing. The project uses a database to store product and order details, supports session-based cart storage, and provides pagination for product browsing.
 
-## Features
-- Browse products by category
-- Add, remove, and view items in the shopping cart
-- Complete checkout with shipping details
-- Persistent shopping cart across sessions
+---
 
-## Setup
+## User Manual
 
-1. **Clone the repo**:
-   ```bash
-   git clone https://github.com/Oh-Reoh/Sports-Store.git
-Open in Visual Studio:
+### How to Set Up and Run the Project
 
-Open SportsStore.sln.
+1. **Clone the Repository:**
+   - Run the following command to clone the repository:
+     ```bash
+     git clone https://github.com/Oh-Reoh/Sports-Store.git
+     ```
 
-Restore NuGet packages.
+2. **Navigate to the Project Directory:**
+   - Open a terminal and navigate to the project folder:
+     ```bash
+     cd Sports-Store
+     ```
 
-Configure database:
+3. **Open the Solution in Visual Studio:**
+   - Locate the `SportsStore.sln` file in the project folder.
+   - Double-click to open it in Visual Studio.
 
-Update the connection string in appsettings.json.
+4. **Restore NuGet Packages:**
+   - In Visual Studio, right-click on the solution in the Solution Explorer.
+   - Select **Restore NuGet Packages** to download the required dependencies.
 
-Apply migrations:
+5. **Build the Project:**
+   - Go to **Build** in the top menu and click on **Build Solution** to compile the project.
 
-Run Update-Database in the Package Manager Console.
+6. **Run the Project:**
+   - Press **F5** or click the **Start** button to run the project locally.
 
-Run the app:
+7. **Access the Store:**
+   - Once the project is running, open a browser and go to `http://localhost:5000` to see the application in action.
 
-Press F5 to start the application.
+### Features
 
-Usage
-Browse Products: Explore products by category.
-
-Add to Cart: Add items to your cart.
-
-View Cart: Check cart items and totals.
-
-Remove Items: Remove items from the cart.
-
-Checkout: Enter shipping details and complete the order.
+- **Product Catalog**: View a list of products available for sale.
+- **Shopping Cart**: Add/remove products, view cart totals, and proceed to checkout.
+- **Order Processing**: Fill out shipping details and complete the order.
